@@ -6,13 +6,13 @@
   "repository": {
     "type": "git",
     "directory": "client",
-    "url": "git+https://github.com/horotopia/MERN_TodoList.git"
+    "url": "git+https://github.com/horotopia/MERN_TS_Template.git"
   },
   "keywords": ["React - Typescript"],
   "author": "Guirado Léo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/horotopia/MERN_TodoList/issues"
+    "url": "https://github.com/horotopia/MERN_TS_Template.git/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
