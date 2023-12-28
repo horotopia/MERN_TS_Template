@@ -6,7 +6,7 @@
   "repository": {
     "type": "git",
     "directory": "server",
-    "url": "git+https://github.com/horotopia/MERN_TodoList.git"
+    "url": "git+https://github.com/horotopia/MERN_TS_Template.git"
   },
   "scripts": {
     "build": "tsc",
@@ -20,9 +20,9 @@
   "author": "Guirado Léo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/horotopia/MERN_TodoList/issues"
+    "url": "https://github.com/horotopia/MERN_TS_Template.git/issues"
   },
-  "homepage": "https://github.com/horotopia/MERN_TodoList#readme",
+  "homepage": "https://github.com/horotopia/MERN_TS_Template.git#readme",
   "dependencies": {
     "@types/mongoose": "^5.11.97",
     "cors": "^2.8.5",
