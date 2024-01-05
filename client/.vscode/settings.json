@@ -1,9 +1,167 @@
 {
+  // Langue de l'interface utilisateur
+  "workbench.language": "fr",
+
+  // Polices d'écran et d'éditeur
+  "editor.fontFamily": "'Fira Code', 'Consolas', 'Monaco', 'sans-serif'",
+  "editor.fontSize": 13,
+  "editor.fontWeight": "400",
+
+  // Formatage et mise en forme du code
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+
+  // Paramètres de formatage de Prettier
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.bracketSpacing": true,
+  "prettier.bracketSameLine": false,
+  "prettier.trailingComma": "all",
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+
+  // Paramètres ESLint
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
- }
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit"
+  },
+  
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "eslint.options": {
+    "configFile": ".eslintrc.js",
+    "rules": {
+      "import/default": "error",
+      "import/export": "error",
+      "import/named": "error",
+      "import/namespace": "error",
+      "import/no-duplicates": "error",
+      "import/no-named-as-default": "error",
+      "import/no-named-as-default-member": "error",
+      "import/no-unresolved": "error"
+    }
+  },
+
+  // Configuration de l'extension DotENV
+  "dotEnv": {
+    "syntaxHighlighting": true
+  },
+
+  // Schémas JSON à utiliser pour la validation et l'autocomplétion
+  "json.schemas": [
+    {
+      "fileMatch": ["*.json"],
+      "url": "https://json.schemastore.org/package"
+    }
+  ],
+
+  // Paramètres emmet
+  "emmet.includeLanguages": {
+    "typescriptreact": "javascript"
+  },
+
+  // Paramètres de formatage pour l'extension JSON Tools
+  "JSONTools.format.enable": true,
+  "JSONTools.format.indentSize": 2,
+
+  // Configuration de l'extension Ponicode
+  "ponicode.language": "typescript",
+
+  // Paramètres de configuration pour l'extension CodeMetrics
+  "codemetrics.useESlint": true,
+
+  // Paramètres de configuration pour l'extension MoveTS
+  "moveTS.allowExtensionRename": true,
+
+  // Configuration des commentaires améliorés avec Better Comments
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498db",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//TODO:",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//NOTE:",
+      "color": "#00FF00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+
+  // Configuration de Quokka.js pour TypeScript
+  "quokka.javascript.experimentalDecorators": true,
+  "quokka.javascript.typescript": true,
+  "quokka.javascript.autoRun": true,
+
+  // Configuration de LogRocket pour le suivi des erreurs
+  "logrocket.projectId": "PROJECT_ID",
+  "logrocket.appId": "APP_ID",
+  "logrocket.region": "REGION",
+  "logrocket.enableUpload": true,
+
+  // Mises à jour automatiques des importations
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifierEnding": "minimal",
+
+  // Paramètres des fichiers
+  "files.autoSave": "off",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true
+  },
+
+  // Extensions recommandées
+  "extensions.ignoreRecommendations": false,
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "extensions.autoUpdate": true,
+  "extensions.autoCheckUpdates": true,
+
+  // Terminal intégré
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "400",
+
+  // Paramètres de formatage spécifiques à TypeScript
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "typescript.format.insertSpaceBeforeTypeAnnotation": true,
+
+  // Paramètres de langage
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

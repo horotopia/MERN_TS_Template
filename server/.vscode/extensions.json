@@ -1,0 +1,30 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "pkief.material-icon-theme",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "msjsdiag.debugger-for-chrome",
+    "octref.vetur",
+    "redhat.vscode-yaml",
+    "vscode-icons-team.vscode-icons",
+    "xabikos.javascriptsnippets",
+    "zhuangtongfa.material-theme",
+    "import-cost.import-cost",
+    "vsmobile.vscode-react-native",
+    "eversky.vscode-nginx",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "sleistner.vscode-fileutils",
+    "burkeholland.simple-react-snippets",
+    "mikestead.dotenv",
+    "eriklynd.json-tools",
+    "ponicode.vscode-ponicode",
+    "kisstkondoros.vscode-codemetrics",
+    "samuelcolvin.jinjahtml",
+    "microsoft.MoveTS",
+    "aaron-bond.better-comments",
+    "wallabyjs.quokka-vscode",
+    "logrocket.vscode-extension"
+  ]
+}
