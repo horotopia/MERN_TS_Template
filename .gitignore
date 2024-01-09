@@ -129,4 +129,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 server/src/Interfaces/task.ts
-server/src/Models/todo.ts
+server/src/Models/*.ts
+server/src/Controllers/*.ts
+server/src/routes/*.ts
